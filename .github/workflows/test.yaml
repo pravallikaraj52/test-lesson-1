@@ -1,0 +1,14 @@
+name: test_workflow
+
+on: push
+
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+        - name: echo message
+          run: echo "Hello world"
+        - name: list files
+          run: ls -lhart
+        - name: Read file
+          run: cat README.md

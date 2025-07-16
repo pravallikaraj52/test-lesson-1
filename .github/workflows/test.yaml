@@ -12,7 +12,7 @@ jobs:
           run: |
             echo "Hello world"
             ls -lhart
-            cat Readme.md
+            cat README.md
         # - name: list files
         #   run: ls -lhart
         # - name: Read file
